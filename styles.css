@@ -1,0 +1,11 @@
+body {
+  background-image: linear-gradient(to bottom right, red, blue);
+  height: 100vh;
+}
+
+#display {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 100px;
+}
