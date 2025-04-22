@@ -16,7 +16,7 @@
       let seconds = today.getSeconds();
       minutes = checkTime(minutes);
       seconds = checkTime(seconds);
-      document.getElementById('display').innerHTML =  hours + ":" + minutes + ":" + seconds;
+      document.getElementById('display').textContent =  hours + ":" + minutes + ":" + seconds;
       setTimeout(startTime, 1000);
     }
     function checkTime(i) {

@@ -1,11 +1,14 @@
 body {
-  background-image: linear-gradient(to bottom right, red, blue);
-  height: 100vh;
+  background-image: linear-gradient(to top, rgb(25, 24, 24), rgb(3, 3, 81));
+  height: 612px;
 }
 
 #display {
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:'Times New Roman', Times, serif;
   text-align: center;
   padding-top: 50px;
   font-size: 100px;
+  color: white;
+  font-style: italic;
+  font-weight: 900;
 }
